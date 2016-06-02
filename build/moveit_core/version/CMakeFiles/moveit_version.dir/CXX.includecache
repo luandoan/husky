@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luan/husky_ur5/devel/include/moveit/version.h
+
+/home/luan/husky_ur5/src/moveit_core/version/version.cpp
+moveit/version.h
+-
+cstdio
+-
+
