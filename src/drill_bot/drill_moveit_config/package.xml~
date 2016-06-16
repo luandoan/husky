@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+  <name>drill_moveit_config</name>
+  <version>1.0.0</version>
+  <description>drill_moveit_config - configuration and launch files for using drill with the MoveIt motion planning</description>
+
+
+  <author email="luandoan263@gmail.com">LUAN DOAN</author>
+  <maintainer email="luandoan263@gmail.com">luan doan</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">http://github.com/luandoan/husky_ur5</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>moveit_setup_assistant</run_depend>
+  <run_depend>warehouse_ros</run_depend>
+  <run_depend>moveit_ros_warehouse</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>moveit_ros_benchmarks</run_depend>
+
+  <export>
+    </export>
+</package>

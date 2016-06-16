@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<!-- project drill_control / teleop drill and pronges by joystick -->
+<!-- author email="luandoan263@gmail.com" - LUAN DOAN -->
+<!-- copyright (c) by LUAN DOAN, CMS Lab, Virginia Tech, June 2016 -->
+
+<launch>
+
+  <arg name="joy_dev" default="/dev/input/js0" />
+  <arg name="joystick" default="true" />
+
+  <group ns="joy_teleop">
+
+    <rosparam command="load" file="$(find drill_control)/config/teleop.yaml" />
+
+    <node pkg="joy" type="joy_node" name="joy_node">
+      <param name="dev" value="$(arg joy_dev)" />
+    </node>
+
+    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_twist_joy"/>
+  </group>
+
+</launch>

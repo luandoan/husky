@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>drill_control</name>
+  <version>1.0.0</version>
+  <description>The drill_control package</description>
+  
+  <author email="luandoan263@gmail.com"> Luan Doan </author>
+  <maintainer email="luandoan263@gmail.com">luan</maintainer>
+
+  <license>BSD</license>
+
+  <url type="repository">http://github.com/luandoan/husky_ur5</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>interative_marker_twist_server</run_depend>
+  <run_depend>diff_driver_controller</run_depend>
+  <run_depend>joint_state_controller</run_depend>
+  <run_depend>joint_trajectory_controller</run_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>robot_localization</run_depend>
+  <run_depend>rostopic</run_depend>
+  <run_depend>controller_manager</run_depend>
+  <run_depend>teleop_twist_joy</run_depend>
+  <run_depend>twist_mux</run_depend>
+  
+  
+  <export>
+   </export>
+</package>

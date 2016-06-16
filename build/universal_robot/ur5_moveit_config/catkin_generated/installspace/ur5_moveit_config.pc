@@ -1,0 +1,8 @@
+prefix=/home/luan/husky_ur5/install
+
+Name: ur5_moveit_config
+Description: Description of ur5_moveit_config
+Version: 1.1.6
+Cflags: 
+Libs: -L/home/luan/husky_ur5/install/lib 
+Requires: 

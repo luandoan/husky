@@ -117,7 +117,20 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/luan/husky_ur5/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/husky/husky_msgs/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/universal_robot/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur_bringup/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur_description/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur_gazebo/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur_msgs/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/husky/husky_control/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/husky/husky_description/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/husky/husky_navigation/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/husky/husky_ur5_moveit_config/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur_driver/cmake_install.cmake")
   INCLUDE("/home/luan/husky_ur5/build/moveit_core/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur5_moveit_config/cmake_install.cmake")
+  INCLUDE("/home/luan/husky_ur5/build/universal_robot/ur_kinematics/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

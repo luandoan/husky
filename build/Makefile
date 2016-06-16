@@ -241,6 +241,149 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named _husky_msgs_generate_messages_check_deps_HuskyStatus
+
+# Build rule for target.
+_husky_msgs_generate_messages_check_deps_HuskyStatus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _husky_msgs_generate_messages_check_deps_HuskyStatus
+.PHONY : _husky_msgs_generate_messages_check_deps_HuskyStatus
+
+# fast build rule for target.
+_husky_msgs_generate_messages_check_deps_HuskyStatus/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/build.make husky/husky_msgs/CMakeFiles/_husky_msgs_generate_messages_check_deps_HuskyStatus.dir/build
+.PHONY : _husky_msgs_generate_messages_check_deps_HuskyStatus/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_gencpp
+
+# Build rule for target.
+husky_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_gencpp
+.PHONY : husky_msgs_gencpp
+
+# fast build rule for target.
+husky_msgs_gencpp/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_gencpp.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_gencpp.dir/build
+.PHONY : husky_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_generate_messages
+
+# Build rule for target.
+husky_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_generate_messages
+.PHONY : husky_msgs_generate_messages
+
+# fast build rule for target.
+husky_msgs_generate_messages/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages.dir/build
+.PHONY : husky_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_generate_messages_cpp
+
+# Build rule for target.
+husky_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_generate_messages_cpp
+.PHONY : husky_msgs_generate_messages_cpp
+
+# fast build rule for target.
+husky_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages_cpp.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages_cpp.dir/build
+.PHONY : husky_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_generate_messages_lisp
+
+# Build rule for target.
+husky_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_generate_messages_lisp
+.PHONY : husky_msgs_generate_messages_lisp
+
+# fast build rule for target.
+husky_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages_lisp.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages_lisp.dir/build
+.PHONY : husky_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_generate_messages_py
+
+# Build rule for target.
+husky_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_generate_messages_py
+.PHONY : husky_msgs_generate_messages_py
+
+# fast build rule for target.
+husky_msgs_generate_messages_py/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages_py.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_generate_messages_py.dir/build
+.PHONY : husky_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_genlisp
+
+# Build rule for target.
+husky_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_genlisp
+.PHONY : husky_msgs_genlisp
+
+# fast build rule for target.
+husky_msgs_genlisp/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_genlisp.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_genlisp.dir/build
+.PHONY : husky_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named husky_msgs_genpy
+
+# Build rule for target.
+husky_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 husky_msgs_genpy
+.PHONY : husky_msgs_genpy
+
+# fast build rule for target.
+husky_msgs_genpy/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/husky_msgs_genpy.dir/build.make husky/husky_msgs/CMakeFiles/husky_msgs_genpy.dir/build
+.PHONY : husky_msgs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make husky/husky_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_lisp
+
+# Build rule for target.
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make husky/husky_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_py
+
+# Build rule for target.
+std_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
+.PHONY : std_msgs_generate_messages_py
+
+# fast build rule for target.
+std_msgs_generate_messages_py/fast:
+	$(MAKE) -f husky/husky_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make husky/husky_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+.PHONY : std_msgs_generate_messages_py/fast
+
+#=============================================================================
 # Target rules for targets named _catkin_empty_exported_target
 
 # Build rule for target.
@@ -250,8 +393,528 @@ _catkin_empty_exported_target: cmake_check_build_system
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	$(MAKE) -f moveit_core/CMakeFiles/_catkin_empty_exported_target.dir/build.make moveit_core/CMakeFiles/_catkin_empty_exported_target.dir/build
+	$(MAKE) -f universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/build.make universal_robot/universal_robot/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_Analog
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_Analog: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_Analog
+.PHONY : _ur_msgs_generate_messages_check_deps_Analog
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_Analog/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Analog.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_Analog/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_Digital
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_Digital: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_Digital
+.PHONY : _ur_msgs_generate_messages_check_deps_Digital
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_Digital/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_Digital.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_Digital/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_IOStates
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_IOStates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_IOStates
+.PHONY : _ur_msgs_generate_messages_check_deps_IOStates
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_IOStates/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_IOStates.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_IOStates/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_MasterboardDataMsg
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_MasterboardDataMsg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_MasterboardDataMsg
+.PHONY : _ur_msgs_generate_messages_check_deps_MasterboardDataMsg
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_MasterboardDataMsg/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_MasterboardDataMsg.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_MasterboardDataMsg/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_RobotStateRTMsg
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_RobotStateRTMsg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_RobotStateRTMsg
+.PHONY : _ur_msgs_generate_messages_check_deps_RobotStateRTMsg
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_RobotStateRTMsg/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_RobotStateRTMsg.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_RobotStateRTMsg/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_SetIO
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_SetIO: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_SetIO
+.PHONY : _ur_msgs_generate_messages_check_deps_SetIO
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_SetIO/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetIO.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_SetIO/fast
+
+#=============================================================================
+# Target rules for targets named _ur_msgs_generate_messages_check_deps_SetPayload
+
+# Build rule for target.
+_ur_msgs_generate_messages_check_deps_SetPayload: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _ur_msgs_generate_messages_check_deps_SetPayload
+.PHONY : _ur_msgs_generate_messages_check_deps_SetPayload
+
+# fast build rule for target.
+_ur_msgs_generate_messages_check_deps_SetPayload/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/build.make universal_robot/ur_msgs/CMakeFiles/_ur_msgs_generate_messages_check_deps_SetPayload.dir/build
+.PHONY : _ur_msgs_generate_messages_check_deps_SetPayload/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_gencpp
+
+# Build rule for target.
+ur_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_gencpp
+.PHONY : ur_msgs_gencpp
+
+# fast build rule for target.
+ur_msgs_gencpp/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_gencpp.dir/build
+.PHONY : ur_msgs_gencpp/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_generate_messages
+
+# Build rule for target.
+ur_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_generate_messages
+.PHONY : ur_msgs_generate_messages
+
+# fast build rule for target.
+ur_msgs_generate_messages/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages.dir/build
+.PHONY : ur_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_generate_messages_cpp
+
+# Build rule for target.
+ur_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_generate_messages_cpp
+.PHONY : ur_msgs_generate_messages_cpp
+
+# fast build rule for target.
+ur_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_cpp.dir/build
+.PHONY : ur_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_generate_messages_lisp
+
+# Build rule for target.
+ur_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_generate_messages_lisp
+.PHONY : ur_msgs_generate_messages_lisp
+
+# fast build rule for target.
+ur_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_lisp.dir/build
+.PHONY : ur_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_generate_messages_py
+
+# Build rule for target.
+ur_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_generate_messages_py
+.PHONY : ur_msgs_generate_messages_py
+
+# fast build rule for target.
+ur_msgs_generate_messages_py/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_generate_messages_py.dir/build
+.PHONY : ur_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_genlisp
+
+# Build rule for target.
+ur_msgs_genlisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_genlisp
+.PHONY : ur_msgs_genlisp
+
+# fast build rule for target.
+ur_msgs_genlisp/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_genlisp.dir/build
+.PHONY : ur_msgs_genlisp/fast
+
+#=============================================================================
+# Target rules for targets named ur_msgs_genpy
+
+# Build rule for target.
+ur_msgs_genpy: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_msgs_genpy
+.PHONY : ur_msgs_genpy
+
+# fast build rule for target.
+ur_msgs_genpy/fast:
+	$(MAKE) -f universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/build.make universal_robot/ur_msgs/CMakeFiles/ur_msgs_genpy.dir/build
+.PHONY : ur_msgs_genpy/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_control
+
+# Build rule for target.
+_run_tests_husky_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_control
+.PHONY : _run_tests_husky_control
+
+# fast build rule for target.
+_run_tests_husky_control/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/_run_tests_husky_control.dir/build.make husky/husky_control/CMakeFiles/_run_tests_husky_control.dir/build
+.PHONY : _run_tests_husky_control/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_control_roslaunch-check
+
+# Build rule for target.
+_run_tests_husky_control_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_control_roslaunch-check
+.PHONY : _run_tests_husky_control_roslaunch-check
+
+# fast build rule for target.
+_run_tests_husky_control_roslaunch-check/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/_run_tests_husky_control_roslaunch-check.dir/build.make husky/husky_control/CMakeFiles/_run_tests_husky_control_roslaunch-check.dir/build
+.PHONY : _run_tests_husky_control_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_control_roslaunch-check_launch
+
+# Build rule for target.
+_run_tests_husky_control_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_control_roslaunch-check_launch
+.PHONY : _run_tests_husky_control_roslaunch-check_launch
+
+# fast build rule for target.
+_run_tests_husky_control_roslaunch-check_launch/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/_run_tests_husky_control_roslaunch-check_launch.dir/build.make husky/husky_control/CMakeFiles/_run_tests_husky_control_roslaunch-check_launch.dir/build
+.PHONY : _run_tests_husky_control_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_husky_control
+
+# Build rule for target.
+clean_test_results_husky_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_husky_control
+.PHONY : clean_test_results_husky_control
+
+# fast build rule for target.
+clean_test_results_husky_control/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/clean_test_results_husky_control.dir/build.make husky/husky_control/CMakeFiles/clean_test_results_husky_control.dir/build
+.PHONY : clean_test_results_husky_control/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_control
+
+# Build rule for target.
+run_tests_husky_control: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_control
+.PHONY : run_tests_husky_control
+
+# fast build rule for target.
+run_tests_husky_control/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/run_tests_husky_control.dir/build.make husky/husky_control/CMakeFiles/run_tests_husky_control.dir/build
+.PHONY : run_tests_husky_control/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_control_roslaunch-check
+
+# Build rule for target.
+run_tests_husky_control_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_control_roslaunch-check
+.PHONY : run_tests_husky_control_roslaunch-check
+
+# fast build rule for target.
+run_tests_husky_control_roslaunch-check/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/run_tests_husky_control_roslaunch-check.dir/build.make husky/husky_control/CMakeFiles/run_tests_husky_control_roslaunch-check.dir/build
+.PHONY : run_tests_husky_control_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_control_roslaunch-check_launch
+
+# Build rule for target.
+run_tests_husky_control_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_control_roslaunch-check_launch
+.PHONY : run_tests_husky_control_roslaunch-check_launch
+
+# fast build rule for target.
+run_tests_husky_control_roslaunch-check_launch/fast:
+	$(MAKE) -f husky/husky_control/CMakeFiles/run_tests_husky_control_roslaunch-check_launch.dir/build.make husky/husky_control/CMakeFiles/run_tests_husky_control_roslaunch-check_launch.dir/build
+.PHONY : run_tests_husky_control_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_description
+
+# Build rule for target.
+_run_tests_husky_description: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_description
+.PHONY : _run_tests_husky_description
+
+# fast build rule for target.
+_run_tests_husky_description/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/_run_tests_husky_description.dir/build.make husky/husky_description/CMakeFiles/_run_tests_husky_description.dir/build
+.PHONY : _run_tests_husky_description/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_description_roslaunch-check
+
+# Build rule for target.
+_run_tests_husky_description_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_description_roslaunch-check
+.PHONY : _run_tests_husky_description_roslaunch-check
+
+# fast build rule for target.
+_run_tests_husky_description_roslaunch-check/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/_run_tests_husky_description_roslaunch-check.dir/build.make husky/husky_description/CMakeFiles/_run_tests_husky_description_roslaunch-check.dir/build
+.PHONY : _run_tests_husky_description_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_description_roslaunch-check_launch
+
+# Build rule for target.
+_run_tests_husky_description_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_description_roslaunch-check_launch
+.PHONY : _run_tests_husky_description_roslaunch-check_launch
+
+# fast build rule for target.
+_run_tests_husky_description_roslaunch-check_launch/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/_run_tests_husky_description_roslaunch-check_launch.dir/build.make husky/husky_description/CMakeFiles/_run_tests_husky_description_roslaunch-check_launch.dir/build
+.PHONY : _run_tests_husky_description_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_husky_description
+
+# Build rule for target.
+clean_test_results_husky_description: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_husky_description
+.PHONY : clean_test_results_husky_description
+
+# fast build rule for target.
+clean_test_results_husky_description/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/clean_test_results_husky_description.dir/build.make husky/husky_description/CMakeFiles/clean_test_results_husky_description.dir/build
+.PHONY : clean_test_results_husky_description/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_description
+
+# Build rule for target.
+run_tests_husky_description: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_description
+.PHONY : run_tests_husky_description
+
+# fast build rule for target.
+run_tests_husky_description/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/run_tests_husky_description.dir/build.make husky/husky_description/CMakeFiles/run_tests_husky_description.dir/build
+.PHONY : run_tests_husky_description/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_description_roslaunch-check
+
+# Build rule for target.
+run_tests_husky_description_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_description_roslaunch-check
+.PHONY : run_tests_husky_description_roslaunch-check
+
+# fast build rule for target.
+run_tests_husky_description_roslaunch-check/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/run_tests_husky_description_roslaunch-check.dir/build.make husky/husky_description/CMakeFiles/run_tests_husky_description_roslaunch-check.dir/build
+.PHONY : run_tests_husky_description_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_description_roslaunch-check_launch
+
+# Build rule for target.
+run_tests_husky_description_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_description_roslaunch-check_launch
+.PHONY : run_tests_husky_description_roslaunch-check_launch
+
+# fast build rule for target.
+run_tests_husky_description_roslaunch-check_launch/fast:
+	$(MAKE) -f husky/husky_description/CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/build.make husky/husky_description/CMakeFiles/run_tests_husky_description_roslaunch-check_launch.dir/build
+.PHONY : run_tests_husky_description_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_navigation
+
+# Build rule for target.
+_run_tests_husky_navigation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_navigation
+.PHONY : _run_tests_husky_navigation
+
+# fast build rule for target.
+_run_tests_husky_navigation/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/_run_tests_husky_navigation.dir/build.make husky/husky_navigation/CMakeFiles/_run_tests_husky_navigation.dir/build
+.PHONY : _run_tests_husky_navigation/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_navigation_roslaunch-check
+
+# Build rule for target.
+_run_tests_husky_navigation_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_navigation_roslaunch-check
+.PHONY : _run_tests_husky_navigation_roslaunch-check
+
+# fast build rule for target.
+_run_tests_husky_navigation_roslaunch-check/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/_run_tests_husky_navigation_roslaunch-check.dir/build.make husky/husky_navigation/CMakeFiles/_run_tests_husky_navigation_roslaunch-check.dir/build
+.PHONY : _run_tests_husky_navigation_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_husky_navigation_roslaunch-check_launch
+
+# Build rule for target.
+_run_tests_husky_navigation_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_husky_navigation_roslaunch-check_launch
+.PHONY : _run_tests_husky_navigation_roslaunch-check_launch
+
+# fast build rule for target.
+_run_tests_husky_navigation_roslaunch-check_launch/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/_run_tests_husky_navigation_roslaunch-check_launch.dir/build.make husky/husky_navigation/CMakeFiles/_run_tests_husky_navigation_roslaunch-check_launch.dir/build
+.PHONY : _run_tests_husky_navigation_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named clean_test_results_husky_navigation
+
+# Build rule for target.
+clean_test_results_husky_navigation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_husky_navigation
+.PHONY : clean_test_results_husky_navigation
+
+# fast build rule for target.
+clean_test_results_husky_navigation/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/clean_test_results_husky_navigation.dir/build.make husky/husky_navigation/CMakeFiles/clean_test_results_husky_navigation.dir/build
+.PHONY : clean_test_results_husky_navigation/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_navigation
+
+# Build rule for target.
+run_tests_husky_navigation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_navigation
+.PHONY : run_tests_husky_navigation
+
+# fast build rule for target.
+run_tests_husky_navigation/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/run_tests_husky_navigation.dir/build.make husky/husky_navigation/CMakeFiles/run_tests_husky_navigation.dir/build
+.PHONY : run_tests_husky_navigation/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_navigation_roslaunch-check
+
+# Build rule for target.
+run_tests_husky_navigation_roslaunch-check: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_navigation_roslaunch-check
+.PHONY : run_tests_husky_navigation_roslaunch-check
+
+# fast build rule for target.
+run_tests_husky_navigation_roslaunch-check/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/run_tests_husky_navigation_roslaunch-check.dir/build.make husky/husky_navigation/CMakeFiles/run_tests_husky_navigation_roslaunch-check.dir/build
+.PHONY : run_tests_husky_navigation_roslaunch-check/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_husky_navigation_roslaunch-check_launch
+
+# Build rule for target.
+run_tests_husky_navigation_roslaunch-check_launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_husky_navigation_roslaunch-check_launch
+.PHONY : run_tests_husky_navigation_roslaunch-check_launch
+
+# fast build rule for target.
+run_tests_husky_navigation_roslaunch-check_launch/fast:
+	$(MAKE) -f husky/husky_navigation/CMakeFiles/run_tests_husky_navigation_roslaunch-check_launch.dir/build.make husky/husky_navigation/CMakeFiles/run_tests_husky_navigation_roslaunch-check_launch.dir/build
+.PHONY : run_tests_husky_navigation_roslaunch-check_launch/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_gencfg
+
+# Build rule for target.
+dynamic_reconfigure_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_cpp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_cpp
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_py
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_py
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make universal_robot/ur_driver/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named ur_driver_gencfg
+
+# Build rule for target.
+ur_driver_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur_driver_gencfg
+.PHONY : ur_driver_gencfg
+
+# fast build rule for target.
+ur_driver_gencfg/fast:
+	$(MAKE) -f universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/build.make universal_robot/ur_driver/CMakeFiles/ur_driver_gencfg.dir/build
+.PHONY : ur_driver_gencfg/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_cpp
@@ -603,45 +1266,6 @@ shape_msgs_generate_messages_py: cmake_check_build_system
 shape_msgs_generate_messages_py/fast:
 	$(MAKE) -f moveit_core/CMakeFiles/shape_msgs_generate_messages_py.dir/build.make moveit_core/CMakeFiles/shape_msgs_generate_messages_py.dir/build
 .PHONY : shape_msgs_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
-
-# Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
-
-# fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f moveit_core/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make moveit_core/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
-
-# Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f moveit_core/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make moveit_core/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_py
-
-# Build rule for target.
-std_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_py
-.PHONY : std_msgs_generate_messages_py
-
-# fast build rule for target.
-std_msgs_generate_messages_py/fast:
-	$(MAKE) -f moveit_core/CMakeFiles/std_msgs_generate_messages_py.dir/build.make moveit_core/CMakeFiles/std_msgs_generate_messages_py.dir/build
-.PHONY : std_msgs_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named trajectory_msgs_generate_messages_cpp
@@ -1631,6 +2255,97 @@ moveit_dynamics_solver/fast:
 	$(MAKE) -f moveit_core/dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/build.make moveit_core/dynamics_solver/CMakeFiles/moveit_dynamics_solver.dir/build
 .PHONY : moveit_dynamics_solver/fast
 
+#=============================================================================
+# Target rules for targets named moveit_ros_planning_gencfg
+
+# Build rule for target.
+moveit_ros_planning_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moveit_ros_planning_gencfg
+.PHONY : moveit_ros_planning_gencfg
+
+# fast build rule for target.
+moveit_ros_planning_gencfg/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/moveit_ros_planning_gencfg.dir/build.make universal_robot/ur_kinematics/CMakeFiles/moveit_ros_planning_gencfg.dir/build
+.PHONY : moveit_ros_planning_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named ur10_kin
+
+# Build rule for target.
+ur10_kin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur10_kin
+.PHONY : ur10_kin
+
+# fast build rule for target.
+ur10_kin/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur10_kin.dir/build
+.PHONY : ur10_kin/fast
+
+#=============================================================================
+# Target rules for targets named ur10_moveit_plugin
+
+# Build rule for target.
+ur10_moveit_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur10_moveit_plugin
+.PHONY : ur10_moveit_plugin
+
+# fast build rule for target.
+ur10_moveit_plugin/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur10_moveit_plugin.dir/build
+.PHONY : ur10_moveit_plugin/fast
+
+#=============================================================================
+# Target rules for targets named ur3_kin
+
+# Build rule for target.
+ur3_kin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur3_kin
+.PHONY : ur3_kin
+
+# fast build rule for target.
+ur3_kin/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur3_kin.dir/build
+.PHONY : ur3_kin/fast
+
+#=============================================================================
+# Target rules for targets named ur3_moveit_plugin
+
+# Build rule for target.
+ur3_moveit_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur3_moveit_plugin
+.PHONY : ur3_moveit_plugin
+
+# fast build rule for target.
+ur3_moveit_plugin/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur3_moveit_plugin.dir/build
+.PHONY : ur3_moveit_plugin/fast
+
+#=============================================================================
+# Target rules for targets named ur5_kin
+
+# Build rule for target.
+ur5_kin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur5_kin
+.PHONY : ur5_kin
+
+# fast build rule for target.
+ur5_kin/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur5_kin.dir/build
+.PHONY : ur5_kin/fast
+
+#=============================================================================
+# Target rules for targets named ur5_moveit_plugin
+
+# Build rule for target.
+ur5_moveit_plugin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ur5_moveit_plugin
+.PHONY : ur5_moveit_plugin
+
+# fast build rule for target.
+ur5_moveit_plugin/fast:
+	$(MAKE) -f universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/build.make universal_robot/ur_kinematics/CMakeFiles/ur5_moveit_plugin.dir/build
+.PHONY : ur5_moveit_plugin/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1651,7 +2366,58 @@ help:
 	@echo "... tests"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... _husky_msgs_generate_messages_check_deps_HuskyStatus"
+	@echo "... husky_msgs_gencpp"
+	@echo "... husky_msgs_generate_messages"
+	@echo "... husky_msgs_generate_messages_cpp"
+	@echo "... husky_msgs_generate_messages_lisp"
+	@echo "... husky_msgs_generate_messages_py"
+	@echo "... husky_msgs_genlisp"
+	@echo "... husky_msgs_genpy"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... std_msgs_generate_messages_py"
 	@echo "... _catkin_empty_exported_target"
+	@echo "... _ur_msgs_generate_messages_check_deps_Analog"
+	@echo "... _ur_msgs_generate_messages_check_deps_Digital"
+	@echo "... _ur_msgs_generate_messages_check_deps_IOStates"
+	@echo "... _ur_msgs_generate_messages_check_deps_MasterboardDataMsg"
+	@echo "... _ur_msgs_generate_messages_check_deps_RobotStateRTMsg"
+	@echo "... _ur_msgs_generate_messages_check_deps_SetIO"
+	@echo "... _ur_msgs_generate_messages_check_deps_SetPayload"
+	@echo "... ur_msgs_gencpp"
+	@echo "... ur_msgs_generate_messages"
+	@echo "... ur_msgs_generate_messages_cpp"
+	@echo "... ur_msgs_generate_messages_lisp"
+	@echo "... ur_msgs_generate_messages_py"
+	@echo "... ur_msgs_genlisp"
+	@echo "... ur_msgs_genpy"
+	@echo "... _run_tests_husky_control"
+	@echo "... _run_tests_husky_control_roslaunch-check"
+	@echo "... _run_tests_husky_control_roslaunch-check_launch"
+	@echo "... clean_test_results_husky_control"
+	@echo "... run_tests_husky_control"
+	@echo "... run_tests_husky_control_roslaunch-check"
+	@echo "... run_tests_husky_control_roslaunch-check_launch"
+	@echo "... _run_tests_husky_description"
+	@echo "... _run_tests_husky_description_roslaunch-check"
+	@echo "... _run_tests_husky_description_roslaunch-check_launch"
+	@echo "... clean_test_results_husky_description"
+	@echo "... run_tests_husky_description"
+	@echo "... run_tests_husky_description_roslaunch-check"
+	@echo "... run_tests_husky_description_roslaunch-check_launch"
+	@echo "... _run_tests_husky_navigation"
+	@echo "... _run_tests_husky_navigation_roslaunch-check"
+	@echo "... _run_tests_husky_navigation_roslaunch-check_launch"
+	@echo "... clean_test_results_husky_navigation"
+	@echo "... run_tests_husky_navigation"
+	@echo "... run_tests_husky_navigation_roslaunch-check"
+	@echo "... run_tests_husky_navigation_roslaunch-check_launch"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... ur_driver_gencfg"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_py"
@@ -1679,9 +2445,6 @@ help:
 	@echo "... shape_msgs_generate_messages_cpp"
 	@echo "... shape_msgs_generate_messages_lisp"
 	@echo "... shape_msgs_generate_messages_py"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... std_msgs_generate_messages_py"
 	@echo "... trajectory_msgs_generate_messages_cpp"
 	@echo "... trajectory_msgs_generate_messages_lisp"
 	@echo "... trajectory_msgs_generate_messages_py"
@@ -1758,6 +2521,13 @@ help:
 	@echo "... test_voxel_grid"
 	@echo "... moveit_kinematics_metrics"
 	@echo "... moveit_dynamics_solver"
+	@echo "... moveit_ros_planning_gencfg"
+	@echo "... ur10_kin"
+	@echo "... ur10_moveit_plugin"
+	@echo "... ur3_kin"
+	@echo "... ur3_moveit_plugin"
+	@echo "... ur5_kin"
+	@echo "... ur5_moveit_plugin"
 .PHONY : help
 
 
