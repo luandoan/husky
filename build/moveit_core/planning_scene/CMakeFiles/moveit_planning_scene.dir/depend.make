@@ -125,6 +125,7 @@ moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_sce
 moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/object_recognition_msgs/ObjectType.h
 moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/octomap/AbstractOcTree.h
 moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/octomap/AbstractOccupancyOcTree.h
+moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/octomap/ColorOcTree.h
 moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/octomap/MCTables.h
 moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/octomap/OcTree.h
 moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_scene.cpp.o: /opt/ros/indigo/include/octomap/OcTreeBaseImpl.h

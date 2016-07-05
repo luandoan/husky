@@ -1552,6 +1552,14 @@ cassert
 fstream
 -
 
+/opt/ros/indigo/include/octomap/ColorOcTree.h
+iostream
+-
+octomap/OcTreeNode.h
+-
+octomap/OccupancyOcTreeBase.h
+-
+
 /opt/ros/indigo/include/octomap/MCTables.h
 
 /opt/ros/indigo/include/octomap/OcTree.h
@@ -1756,6 +1764,8 @@ octomap_msgs/Octomap.h
 octomap/octomap.h
 -
 octomap_msgs/Octomap.h
+-
+octomap/ColorOcTree.h
 -
 
 /opt/ros/indigo/include/random_numbers/random_numbers.h

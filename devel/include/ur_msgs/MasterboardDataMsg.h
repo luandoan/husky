@@ -275,7 +275,7 @@ namespace serialization
       stream.next(m.master_onoff_state);
     }
 
-    ROS_DECLARE_ALLINONE_SERIALIZER;
+    ROS_DECLARE_ALLINONE_SERIALIZER
   }; // struct MasterboardDataMsg_
 
 } // namespace serialization

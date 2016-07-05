@@ -293,7 +293,7 @@ namespace serialization
       stream.next(m.joint_modes);
     }
 
-    ROS_DECLARE_ALLINONE_SERIALIZER;
+    ROS_DECLARE_ALLINONE_SERIALIZER
   }; // struct RobotStateRTMsg_
 
 } // namespace serialization

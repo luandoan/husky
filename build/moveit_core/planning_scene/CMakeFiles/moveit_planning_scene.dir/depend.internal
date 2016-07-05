@@ -126,6 +126,7 @@ moveit_core/planning_scene/CMakeFiles/moveit_planning_scene.dir/src/planning_sce
  /opt/ros/indigo/include/object_recognition_msgs/ObjectType.h
  /opt/ros/indigo/include/octomap/AbstractOcTree.h
  /opt/ros/indigo/include/octomap/AbstractOccupancyOcTree.h
+ /opt/ros/indigo/include/octomap/ColorOcTree.h
  /opt/ros/indigo/include/octomap/MCTables.h
  /opt/ros/indigo/include/octomap/OcTree.h
  /opt/ros/indigo/include/octomap/OcTreeBaseImpl.h

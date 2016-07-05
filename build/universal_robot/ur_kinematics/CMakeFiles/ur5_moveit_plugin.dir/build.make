@@ -89,6 +89,7 @@ ur5_moveit_plugin_EXTERNAL_OBJECTS =
 /home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_trajectory_execution_manager.so
 /home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_plan_execution.so
 /home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_planning_scene_monitor.so
+/home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_collision_plugin_loader.so
 /home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_lazy_free_space_updater.so
 /home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_point_containment_filter.so
 /home/luan/husky_ur5/devel/lib/libur5_moveit_plugin.so: /opt/ros/indigo/lib/libmoveit_occupancy_map_monitor.so

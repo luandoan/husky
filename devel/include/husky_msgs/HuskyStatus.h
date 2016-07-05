@@ -332,7 +332,7 @@ namespace serialization
       stream.next(m.current_limit);
     }
 
-    ROS_DECLARE_ALLINONE_SERIALIZER;
+    ROS_DECLARE_ALLINONE_SERIALIZER
   }; // struct HuskyStatus_
 
 } // namespace serialization

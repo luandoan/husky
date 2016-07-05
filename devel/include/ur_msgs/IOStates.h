@@ -202,7 +202,7 @@ namespace serialization
       stream.next(m.analog_out_states);
     }
 
-    ROS_DECLARE_ALLINONE_SERIALIZER;
+    ROS_DECLARE_ALLINONE_SERIALIZER
   }; // struct IOStates_
 
 } // namespace serialization

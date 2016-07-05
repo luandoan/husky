@@ -1,0 +1,8 @@
+prefix=/home/luan/husky_ur5/devel
+
+Name: basler_camera
+Description: Description of basler_camera
+Version: 0.0.0
+Cflags: -I/home/luan/husky_ur5/src/basler_camera/include
+Libs: -L/home/luan/husky_ur5/devel/lib 
+Requires: 
